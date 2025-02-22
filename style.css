@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'Chomsky';
+    src: url('./assets/chomsky.woff') format('woff');
+}
+
+body {
+    font-family: "Comic Sans MS";
+}
+
+.container {
+    align-items: stretch;
+    justify-content: center;
+    column-gap: 3px;
+    display: flex;
+}
+
+.cbody, .csidebar {
+    border: black solid 6px;
+    padding: 5px;
+}
+
+.cbody {
+    max-width: 70%;
+}
+
+.csidebar {
+    min-width: 5%;
+}
+
+.elchaddai {
+    font-family: 'Chomsky';
+}
+
+.gif {
+    align-items: center;
+}
+
+.smallgif {
+    height: 100px;   
+    
+}
+p {
+    text-align: left;
+}
